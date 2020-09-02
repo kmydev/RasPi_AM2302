@@ -8,5 +8,5 @@ HTMLFILE=$TGTD$YMD.html
  
 /usr/bin/python3 $SRCD/am2302.py >> $LOGFILE
 
-/usr/bin/python3 $SRCD/log2html.py >> $HTMLFILE
+/usr/bin/python3 $SRCD/log2html.py > $HTMLFILE
 
