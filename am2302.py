@@ -94,7 +94,7 @@ try:
                 SendMail(temp, hum, detail)
                 print(detail + ' mailed')
             else:
-                print(detail)
+                print(detail + ' -')
 
             break
 
